@@ -1,0 +1,34 @@
+# Terraform working directory
+.terraform/
+**/.terraform/*
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Real variable files
+terraform.tfvars
+*.auto.tfvars
+
+# Terraform plan files
+*.tfplan
+tfplan
+
+# Private keys - NEVER COMMIT
+*.pem
+*.key
+*.ppk
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
