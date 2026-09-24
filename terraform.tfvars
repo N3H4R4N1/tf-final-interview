@@ -15,7 +15,7 @@ instance_type = "t3.micro"
 
 # Replace this with your actual public IPv4 address.
 # Example: 49.36.100.20/32
-allowed_ssh_cidr = "YOUR_PUBLIC_IP/32"
+allowed_ssh_cidr = "223.190.84.44/32"
 
 # Terraform will create this AWS EC2 Key Pair.
 bastion_key_name = "vpc-peering-bastion-key"
